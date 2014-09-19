@@ -1,6 +1,6 @@
 # highscore
 
-Easily find and rank keywords in long texts.
+Easily find and rank keywords in long texts
 
 [![Build Status](https://secure.travis-ci.org/domnikl/highscore.png?branch=develop)](http://travis-ci.org/domnikl/highscore) [![Code Climate](https://codeclimate.com/github/domnikl/highscore.png)](https://codeclimate.com/github/domnikl/highscore)
 
