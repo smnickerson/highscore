@@ -1,8 +1,6 @@
 # encoding: utf-8
 $:.unshift(File.join(File.dirname(__FILE__), %w{.. .. lib highscore}))
 require "content"
-require "test/unit"
-require 'rubygems'
 
 class TestContent < Highscore::TestCase
   def setup
@@ -58,6 +56,14 @@ class TestContent < Highscore::TestCase
     end
 
     assert_equal 4, keywords.length
+  end
+
+  def test_rank_short_words_limit
+    keywords = '56789 as 444 cat is foobar'.keywords do
+      set :short_words_threshold, 3
+    end
+
+    assert_equal 1, keywords.length
   end
 
   def test_ignore_custom

@@ -14,6 +14,7 @@ module Highscore
       string
       whitelist
       wordlist
+      bonuslist
     )
     
     modules.each do |m|
@@ -23,4 +24,3 @@ module Highscore
 end
 
 Highscore.load_modules
-

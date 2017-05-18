@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
+gem 'minitest'
 gem 'whatlanguage'
 gem 'rake'
 gem 'simplecov'
 gem 'stemmer'
+gem 'bloomfilter-rb'

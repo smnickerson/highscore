@@ -3,22 +3,29 @@ GEM
   specs:
     bloomfilter-rb (2.1.1)
       redis
-    multi_json (1.6.1)
-    rake (0.9.2.2)
-    redis (3.0.1)
-    simplecov (0.7.1)
-      multi_json (~> 1.0)
-      simplecov-html (~> 0.7.1)
-    simplecov-html (0.7.1)
+    docile (1.1.5)
+    json (1.8.3)
+    minitest (5.9.0)
+    rake (11.2.2)
+    redis (3.3.0)
+    simplecov (0.11.2)
+      docile (~> 1.1.0)
+      json (~> 1.8)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.0)
     stemmer (1.0.1)
-    whatlanguage (1.0.0)
+    whatlanguage (1.0.6)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   bloomfilter-rb
+  minitest
   rake
   simplecov
   stemmer
   whatlanguage
+
+BUNDLED WITH
+   1.12.5
